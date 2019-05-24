@@ -1,0 +1,24 @@
+{
+  "name": "shopify-admin-sdk-js",
+  "version": "1.0.0",
+  "description": "Shopify admin javascript sdk.",
+  "main": "lib/shopifyAdminSdkJs.js",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "test-unit-all": "npm run test -- unit",
+    "test-int-all": "npm run test -- int --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "create-crud-client": "git+https://github.com/isaacSennerholt/create-crud-client.git"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
