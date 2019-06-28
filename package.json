@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "assert-object-shape": "git+https://github.com/isaacSennerholt/assert-object-shape.git",
     "axios": "^0.18.0",
     "create-crud-client": "git+https://github.com/isaacSennerholt/create-crud-client.git"
   },
